@@ -66,3 +66,90 @@ body{
 /*================================================
 === Header / Menu area Section Code End Here ===
 ================================================ */
+
+/*=====================================
+=== Top Player Section Code Start Here ===
+======================================= */
+
+
+.top_section_area,
+.letest_course_section{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 5px 5px 25px #d1d1d1;
+    padding: 30px 40px;
+    margin-top: 20px;
+}
+.top_player_section .blog_title h1,
+.top_blog_section .blog_title h1,
+.letest_course_section .blog_title h1{
+    font-size: 24px;
+    font-weight: 500;
+    color: #562EFF;
+   
+}
+.top_player_section .player_area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 25px;
+    grid-column-gap: 10px;
+}
+.player{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.player h3,
+.blog_info h3{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    margin-left: 10px;
+}
+.hr_bar hr{
+    margin: 20px 0;
+    border: 1px solid #d1d1d1;
+}
+/*=====================================
+=== Top Player Section Code End Here ===
+======================================= */
+
+
+/*===================================
+=== Top Blog Section Code Start Here ===
+===================================== */
+.main_blog_section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 26px;
+}
+.blog_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.blog_items .banner_area img{
+    width: 224px;
+    height: 127px;
+}
+.blog_info p{
+    margin-left: 10px;
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog_info p a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+}
+
+/*===================================
+=== Top Blog Section Code End Here ===
+===================================== */
