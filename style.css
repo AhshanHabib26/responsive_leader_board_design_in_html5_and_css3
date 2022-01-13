@@ -153,3 +153,58 @@ body{
 /*===================================
 === Top Blog Section Code End Here ===
 ===================================== */
+
+/*=========================================
+===Latest Course Section Code Start Here===
+========================================== */
+
+.course_area{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15px;
+}
+.course_items .course_banner img{
+    width: 224px;
+    height: 104px;
+}
+.course_info h3{
+    color: #1E1E1E;
+    font-size: 20px;
+    font-weight: 500;
+}
+.course_info p{
+    font-size: 14px;
+    color: #9F9F9F;
+}
+.course_info p a{
+    color: #ED6B4F;
+    text-decoration: none;
+}
+.course_rating{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.rating_area li,
+.timer_area li{
+    list-style: none;
+    display: inline-block;
+}
+.rating_area .filled_color{
+    color: #FFC014;
+}
+.rating_area .empty_color,
+.rating_area span{
+    color: #AEAEAE;
+}
+.timer_area li i{
+    background-color: #FEE5DF;
+    color: #FF4A60;
+    padding: 8px;
+    border-radius: 25px;
+}
+/*========================================
+=== Latest Course Section Code End Here===
+========================================== */
+
