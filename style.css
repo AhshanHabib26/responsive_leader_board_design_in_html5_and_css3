@@ -1,0 +1,68 @@
+body{
+   margin: 0;
+   padding: 0;
+   background-color: #E5E5E5;
+   font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1120px;
+    width: 70%;
+}
+
+/*================================================
+=== Header / Menu area Section Code Start Here ===
+================================================ */
+
+
+#header_area{
+    padding: 15px 0;
+    background-color: #562EFF;
+}
+.top_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo_area{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+}
+.logo_area img{
+    width: 40px;
+    height: 51px;
+}
+.logo_area .logo_txt{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+}
+.main_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.menu_area li{
+    display: inline-block;
+    margin-right: 25px;
+    
+}
+.menu_area li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+
+}
+.user_area img{
+    width: 51px;
+    height: 51px;
+    border-radius: 50%;
+}
+
+/*================================================
+=== Header / Menu area Section Code End Here ===
+================================================ */
