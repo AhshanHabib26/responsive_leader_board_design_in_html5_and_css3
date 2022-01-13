@@ -237,3 +237,65 @@ body{
 === Footer Section Code End Here==========
 ========================================== */
 
+/*******************************
+***Responsive Code Start Here***
+********************************/
+
+@media only screen and (min-width: 320px) and (max-width: 419px){
+    .top_section_area, .letest_course_section{ padding: 10px 40px;}
+    .main_menu{display: none;}
+    .top_player_section .player_area,
+    .main_blog_section,
+    .course_area{ grid-template-columns: repeat(1, 1fr);}
+    .blog_items,
+    .course_rating{ flex-direction: column;}
+    .course_rating{ justify-content: normal; align-items: normal;}
+    .timer_area{ margin-top: 5px;}
+    .course_items{margin-top: 25px;}
+}
+@media only screen and (min-width: 420px) and (max-width: 479px) {
+    .top_section_area, .letest_course_section{ padding: 10px 40px;}
+    .menu_area{ display: none;}
+    .top_player_section .player_area,
+    .main_blog_section,
+    .course_area{ grid-template-columns: repeat(1, 1fr);}
+    .blog_items,
+    .course_rating{ flex-direction: column;}
+    .course_rating { justify-content: space-between; align-items: center; flex-direction: row;}
+    .timer_area{ margin-top: 5px;}
+    .course_items{margin-top: 25px;}
+}
+@media only screen and (min-width: 480px) and (max-width: 720px) {
+    .menu_area{ display: none;}
+    .top_player_section .player_area { grid-template-columns: repeat(2, 1fr);}
+    .main_blog_section,
+    .course_area{ grid-template-columns: repeat(1, 1fr);}
+    .blog_items,
+    .course_rating{ flex-direction: column;}
+    .blog_items { justify-content: normal; align-items: normal; }
+    .course_rating { justify-content: space-between; align-items: center; flex-direction: row;}
+    .timer_area{ margin-top: 5px;}
+    .course_items{margin-top: 25px;}
+}
+@media only screen and (min-width: 720px) and (max-width: 920px) {
+    .menu_area{ display: block;}
+    .top_player_section .player_area ,
+    .course_area { grid-template-columns: repeat(2, 1fr);}
+    .main_blog_section { grid-template-columns: repeat(1, 1fr);}
+    .course_rating{ flex-direction: column;}
+    .blog_items{ flex-direction: row;}
+    .course_rating { justify-content: space-between; align-items: center; flex-direction: row;}
+    .timer_area{ margin-top: 5px;}
+    .course_items{margin-top: 25px;}
+}
+@media only screen and (min-width: 921px) and (max-width: 1120px) {
+    .menu_area{ display: block;}
+    .top_player_section .player_area { grid-template-columns: repeat(3, 1fr);}
+    .course_area { grid-template-columns: repeat(2, 1fr);}
+    .main_blog_section { grid-template-columns: repeat(2, 1fr);}
+    .course_rating{ flex-direction: column;}
+    .blog_items{ flex-direction: column;}
+    .course_rating { justify-content: space-between; align-items: center; flex-direction: row;}
+    .timer_area{ margin-top: 5px;}
+    .course_items{margin-top: 25px;}
+}
